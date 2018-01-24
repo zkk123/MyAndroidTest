@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_top"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:id="@+id/activity_local_search_temp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:transitionName="shareNames"
+        android:orientation="horizontal">
+        <com.zkk.view.SearchView
+            android:id="@+id/local_searchView"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp"
+            android:paddingLeft="15dp"
+            android:inputType="text"
+            android:paddingRight="60dp"
+            android:maxLines="1"
+            android:background="@drawable/edit_text_shape"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+</LinearLayout>

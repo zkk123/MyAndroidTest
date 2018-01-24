@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seacher_item">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginRight="100dp"
+        android:maxLines="1"
+        android:layout_toRightOf="@+id/music_itme_checkbox"
+        android:id="@+id/music_itme_title" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music_itme_title"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:layout_alignLeft="@+id/music_itme_title"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/music_itme_album" />
+    <CheckBox
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/music_itme_checkbox"/>
+    <ImageView
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/more"
+        android:id="@+id/music_itme_image"/>
+</RelativeLayout>

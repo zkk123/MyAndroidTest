@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_dialog"
+    xmlns:app="http://schemas.android.com/apk/com.example.com.myapplication">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_below="@+id/seekBar">
+    <Button
+        android:text="取消"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:background="@drawable/btn_diglog_left"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1" />
+    <Button
+        android:text="确认"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_diglog_right"
+        android:layout_weight="1" />
+
+</LinearLayout>
+
+    <com.warkiz.widget.IndicatorSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/title_diglog"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        app:isb_show_indicator="true"
+        app:isb_thumb_drawable="@mipmap/yuandian"
+        app:isb_thumb_width="18dp"
+
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="设置"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#bdc8d3"
+
+        android:id="@+id/title_diglog" />
+</RelativeLayout>

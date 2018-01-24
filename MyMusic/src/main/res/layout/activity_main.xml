@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zkk.view.MySlideMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myslidemenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context="com.music.activity.MainActivity">
+
+
+    <include layout="@layout/layout_menu"/>
+    <include layout="@layout/layout_main"/>
+
+</com.zkk.view.MySlideMenu>

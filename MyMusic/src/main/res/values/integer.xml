@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="music_bottem" >12</integer>
+    <integer name="music_tookbar" >10</integer>
+    <integer name="music_seekbar" >3</integer>
+    <integer name="music_list" >84</integer>
+    <integer name="music_space">3</integer>
+    <integer name="music_words" >95</integer>
+    <integer name="bottem_image_weight">5</integer>
+    <integer name="menu_tuxiang" >3</integer>
+    <integer name="menu_items" >7</integer>
+    <integer name="menu_bottem_space" >4</integer>
+
+</resources>

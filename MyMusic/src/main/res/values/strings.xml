@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="local">本地</string>
+    <string name="internat">网络</string>
+    <string name="hot_word">热词</string>
+    <string name="history_record">最近播放</string>
+    <string name="skip">跳过</string>
+</resources>
