@@ -9,26 +9,29 @@
     android:id="@+id/layout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#dddddd"
+    android:background="#DDDDDD">
+    <Button
+        android:id="@+id/surfaceView"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="surface"/>
+    <Button
+        android:id="@+id/surfaceTest"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="test"/>
+    <Button
+        android:id="@+id/bottem"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="bottem"/>
 
-    >
-    <RelativeLayout
-        android:id="@+id/layout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#4466ff"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="30dp"
-        android:gravity="center">
-        <TextView
-            android:id="@+id/textView"
-            android:background="#ec9d94"
-            android:layout_width="180dp"
-            android:layout_height="50dp"
-            android:text="Hello World!" />
-    </RelativeLayout>
 </RelativeLayout>
     <RelativeLayout
         android:id="@+id/myView"

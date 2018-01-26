@@ -21,6 +21,7 @@ import android.widget.RelativeLayout;
 public class BottemRelativeLayout extends RelativeLayout {
     private View bottemMenu,mainMenu;//底部栏对象
     private ViewDragHelper viewDragHelper;
+
     private int height;
     private float dragRange;//拖拽范围
     private onDragStateChangeListener listener;
@@ -187,10 +188,12 @@ public class BottemRelativeLayout extends RelativeLayout {
                  if(currentState==DragState.STATE_CLOSE&&fac==1){
                      currentState=DragState.STATE_OPEN;
                          if(listener!=null)listener.onOpen();
+                         mainMenu.setAlpha(0.3f);
 
                  }else if(currentState==DragState.STATE_OPEN&&fac==0){
                          currentState=DragState.STATE_CLOSE;
                          if(listener!=null)listener.onClose();
+                     mainMenu.setAlpha(1f);
                  }else{
                      if(listener!=null)listener.Draging(fac);
                  }
